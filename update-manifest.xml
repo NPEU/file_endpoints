@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>NPEU: file_endpoints</name>
+        <description>Joomla! file_endpoints file</description>
+        <element>file_endpoints</element>
+        <type>file</type>
+        <version>1.0.0</version>
+        <client>site</client>
+        <infourl title="NPEU: file_endpoints">https://github.com/NPEU/file_endpoints/releases/tag/v1.0.0</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/NPEU/file_endpoints/archive/v1.0.0.zip</downloadurl>
+        </downloads>
+        <targetplatform name="joomla" />
+        <tags>
+            <tag>stable</tag>
+        </tags>
+    </update>
+</updates>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="3.2.0" method="upgrade">
+
+    <name>Endpoints</name>
+    <author>Andy Kirk</author>
+    <authorEmail>andy.kirk@npeu.ox.ac.uk</authorEmail>
+    <authorUrl>https://www.npeu.ox.ac.uk</authorUrl>
+    <creationDate>May 2021</creationDate>
+    <copyright>(C) NPEU 2021</copyright>
+    <license>MIT License; see LICENSE.md</license>
+
+    <!--  The version string is recorded in the components table -->
+    <version>1.0.0</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>Miscellaneous endpoints.</description>
+
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" name="NPEU: file_endpoints Update Site">https://raw.githubusercontent.com/NPEU/file_endpoints/main/update-manifest.xml</server>
+    </updateservers>
+
+    <fileset>
+        <files target="/endpoints">
+            <folder>EndpointService</folder>
+            <folder>vendor</folder>
+            <file>.htaccess</file>
+            <file>EndpointHelpers.php</file>
+            <file>index.php</file>
+            <file>server_vars.php</file>
+        </files>
+    </fileset>
+
+</extension>
