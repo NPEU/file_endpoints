@@ -206,7 +206,7 @@ $service = new $classname();
 $r = $service->run();
 
 if (!$r) {
-   echo '<h1>Error</h1><p>Something went wrong - we couldn\'t complete that request.</p>';
+    echo '<h1>Error</h1><p>Something went wrong - we couldn\'t complete that request.</p>';
 }
 
 exit;
